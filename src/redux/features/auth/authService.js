@@ -3,14 +3,14 @@ import axios from "axios"
 
 //Register 
 const register = async (userData) =>{
-    const response = await axios.post("http://localhost:5000/api/v1/users/signup",userData,{
+    const response = await axios.post("https://data-be-2.onrender.com/api/v1/users/signup",userData,{
         withCredentials: true
     })
     return response.data
 };
 //Login
 const login = async (userData) =>{
-    const response = await axios.post("http://localhost:5000/api/v1/users/signin",userData,{
+    const response = await axios.post("https://data-be-2.onrender.com/api/v1/users/signin",userData,{
         withCredentials: true
     })
     return response.data
@@ -18,7 +18,7 @@ const login = async (userData) =>{
 
 //Logout
 const logout = async () =>{
-    const response = await axios.get("http://localhost:5000/api/v1/users/logout")
+    const response = await axios.get("https://data-be-2.onrender.com/api/v1/users/logout")
     return response.data
 };
 

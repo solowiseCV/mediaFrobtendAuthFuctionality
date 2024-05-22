@@ -1,0 +1,60 @@
+button {
+  /* border: 5px solid red; */
+  height: 56px;
+  cursor: pointer;
+  color: #ffff;
+  background-image: linear-gradient(to right, #C83CD4, #6736A6);
+  margin-top: 10px;
+  width: 100%;
+}
+
+input {
+  background-color: #605468;
+  height: 54px;
+  width: 100%;
+  padding: 15px;
+}
+
+.inputgap{
+  /* border: 5px solid green; */
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.verificationInput{
+  /* gap: 20px; */
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.forgotPasswordInput{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.socialButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  cursor: pointer;
+}
+.inputWrapper{
+  position: relative;
+}
+.inputIcon {
+  position: absolute;
+  color: #ffff;
+  top: 17px;
+  right: 10px;
+}
+
+.mediaLogoDiv{
+  /* border: 5px solid red; */
+  width: 95%;
+}
+

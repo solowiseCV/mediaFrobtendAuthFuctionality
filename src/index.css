@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    border-radius: 0px;
+  }
+body {
+  height: 100%;
+  /* background-color: #11001E; */
+}
